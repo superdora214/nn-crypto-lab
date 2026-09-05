@@ -1,0 +1,28 @@
+# 数据与产出（体积大或可再生，不入库）
+data/
+results/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 环境与本地配置
+.env
+*.log
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
